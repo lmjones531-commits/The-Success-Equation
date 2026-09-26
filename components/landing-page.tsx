@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import {
   TrendingUp,
@@ -47,7 +49,7 @@ const RESULTS = [
   },
 ];
 
-export function LandingPage() {
+export default function LandingPage() {
   return (
     <main className="min-h-screen bg-[#0B0F19] text-white">
       {/* Hero */}
