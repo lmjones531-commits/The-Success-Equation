@@ -18,32 +18,11 @@ import scoreAmy from "../assets/score-amy.png.asset.json";
 import scoreChampion from "../assets/score-champion.png.asset.json";
 import scoreTrailblazer from "../assets/score-trailblazer.png.asset.json";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      {
-        title: "SAT Math Accelerator | Lauren Jones — 19-Year SAT Math Specialist",
-      },
-      {
-        name: "description",
-        content:
-          "Small-group Digital SAT Math prep with adaptive practice, Desmos calculator shortcuts, and speed strategies. Taught by Lauren Jones, 28-year educator.",
-      },
-      {
-        property: "og:title",
-        content: "SAT Math Accelerator | Lauren Jones",
-      },
-      {
-        property: "og:description",
-        content:
-          "Small-group, high-yield Digital SAT prep focused on Desmos shortcuts, pattern recognition, and test speed strategies.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
-  component: Index,
-});
+export function LandingPage() {
+  return (
+    // ... all your landing page HTML / JSX components ...
+  )
+}
 
 const CALENDLY_URL =
   "https://calendly.com/lauren-the-success-equation/sat-accelerator-enrollment-strategy-session";
